@@ -1,0 +1,112 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-content,
+.main-title {
+  text-align: center;
+}
+
+.main-content,
+img {
+  position: relative;
+  z-index: 1;
+  top: 0px;
+}
+
+.main-title {
+  position: absolute;
+  top: 110px;
+  z-index: 2;
+  margin-left: 185px;
+  color: #fff;
+}
+
+.content-faculty {
+  text-align: center;
+  color: #0033a0;
+}
+
+.img-container {
+  width: 590px;
+  display: flex;
+  margin-left: 270px;
+}
+
+span {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.content-desc {
+  color: #0033a0;
+  line-height: 1.8rem;
+  font-size: 15px;
+}
+
+.content-desc,
+ul {
+  list-style-type: disc;
+}
+
+.title-smt {
+  background-color: #0033a0;
+  color: white;
+  margin-right: -25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-table {
+  color: #0033a0;
+  line-height: 22px;
+}
+
+.bg-soft {
+  background-color: #ebf4fb;
+  height: 540px;
+  margin-top: -16px;
+  margin-right: -25px;
+}
+
+.end-title {
+  color: #0033a0;
+}
+
+.end-title,
+span {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.main-footer {
+  background: linear-gradient(to right, #cce5e1, #ccd9ea, #dfd8e0);
+}
+
+.title-footer {
+  margin-left: 40px;
+  color: #0033a0;
+}
+
+.footer-copy {
+  background: linear-gradient(to right, #006579, #07359a, #4a3160);
+  height: 70px;
+  margin-top: -15px;
+  color: #fff;
+}
+
+.main-icon {
+  display: flex;
+  justify-content: end;
+}
+
+.main-icon {
+  margin-top: -25px;
+  padding-right: 15px;
+  gap: 12px;
+}
+
+.navbar-nav {
+  margin-left: 750px;
+}
